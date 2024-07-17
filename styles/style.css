@@ -137,3 +137,8 @@ section svg {
   width: 100%;
   max-width: 650px;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
