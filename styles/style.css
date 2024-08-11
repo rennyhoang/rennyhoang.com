@@ -87,6 +87,14 @@ section {
   background-color: var(--surface);
 }
 
+#project-grid a:link {
+  color: var(--blue);
+}
+
+#project-grid a:visited {
+  color: var(--purple);
+}
+
 section a:link {
   color: var(--blue);
 }
@@ -153,4 +161,40 @@ section a svg {
 .header {
   display: flex;
   flex-direction: column;
+}
+
+#project-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #313244;
+  border-radius: 4px;
+  padding: 1em;
+  max-width: 25vw;
+  text-align: center;
+}
+
+.card img {
+  border-radius: 4px;
+}
+
+.card p {
+  padding: 4px;
+  background-color: #45475a;
+  border-radius: 4px;
+}
+
+.card a:link {
+  color: var(--blue);
+}
+
+.card a:visited {
+  color: var(--purple);
 }
