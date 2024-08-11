@@ -121,7 +121,7 @@ section svg,
 section a svg {
   fill: var(--text-color);
   max-height: 2em;
-  min-width: 2em;
+  min-width: 1.5em;
 }
 
 #resume,
